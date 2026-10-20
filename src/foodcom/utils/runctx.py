@@ -5,7 +5,7 @@ reproduce or challenge a number in the Results Pack lives inside it: the exact c
 hashes of the data it read, the code revision, package versions, the model revision, the
 seeds, when it started and finished, its logs, its metrics, its figures and any failures.
 
-The researcher should be able to take a run id from a table caption and find the number's origin
+Khushi should be able to take a run id from a table caption and find the number's origin
 without reading a line of Python.
 """
 

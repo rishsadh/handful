@@ -122,7 +122,7 @@ def build_results_pack(
     parts: list[str] = ["# Results Pack — Food.com recipe shortlisting\n"]
     if not manifest:
         parts.append(
-            f"""**For:** the researcher (research writing, interpretation, submission)
+            f"""**For:** Khushi (research writing, interpretation, submission)
 **Protocol version:** {cfg.research.protocol_version}
 
 > **NO EVALUATION RUN EXISTS YET.** Every results section below is marked PENDING. Nothing
@@ -136,7 +136,7 @@ Run `python tasks.py validate` (or `final`) and regenerate this pack with
         )
     else:
         parts.append(
-            f"""**For:** the researcher (research writing, interpretation, submission)
+            f"""**For:** Khushi (research writing, interpretation, submission)
 **Prepared by:** the technical pipeline in `handful`, run `{run_id}`
 **Protocol version:** {cfg.research.protocol_version}
 **Run status:** {manifest.get('status', 'unknown')}

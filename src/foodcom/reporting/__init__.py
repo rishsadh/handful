@@ -1,1 +1,1 @@
-"""Research-ready tables, figures and the Results Pack for the researcher."""
+"""Research-ready tables, figures and the Results Pack for Khushi."""

@@ -5,7 +5,7 @@ A methodological change needs an entry here, an approver, and a `protocol_versio
 `config/research.yaml`.
 
 **Approval columns are honest.** `Rish (implementation)` means a technical decision Rish is
-entitled to make. `PENDING — researcher` or `PENDING — instructor` means the decision is
+entitled to make. `PENDING — Khushi` or `PENDING — instructor` means the decision is
 recorded but **not yet approved**, and nothing downstream should be treated as settled.
 
 ---
@@ -33,7 +33,7 @@ referenced by path from this repo, not copied into it.
 Remote is `https://github.com/reidifydesign/handful`, **private**, default branch `main`.
 
 **Why private.** Run directories can contain pseudonymous Food.com user ids, the dataset
-licence position is not yet established, and this is unpublished academic work that the researcher
+licence position is not yet established, and this is unpublished academic work that Khushi
 has to submit. None of those is a reason for the code to be secret forever — it is a reason
 not to make it public before the licence and the submission are settled.
 
@@ -479,7 +479,7 @@ contrast. The tool's sample does not correspond to what is on screen.
 (multiply-blended, low enough to leave every declared colour and contrast ratio
 unchanged) on every paper surface, replacing flat token colour with the actual material.
 A photographed receipt strip behind the bill. The brass label holder framing "Whose box".
-A paperclip on the pending block - the researcher's introduction is, literally, a note clipped to
+A paperclip on the pending block - Khushi's introduction is, literally, a note clipped to
 the page. The physical stamp beside its own impression on a full divider row. The four
 divider tabs as photographed cards, illustrating "the rule" screen's own paragraph about
 them. A fanned fifty-odd-card stack opening the try page. None of the 40 roles is used
@@ -509,7 +509,7 @@ metric or claim changes.
 
 Both pages and the try page are recomposed to a new register while the vocabulary of
 D-029 (cards, dividers, the box, pulled, put back, 86'd) stays exactly as it is in the
-paper, the deck and the researcher's script. Two engines are vendored under `/assets/` and a set
+paper, the deck and Khushi's script. Two engines are vendored under `/assets/` and a set
 of generated images is introduced under a strict rule about what may be generated.
 
 **Why.** Rish's brief: "an Awwwards-winning experience... pushed to the absolute limits of
@@ -587,7 +587,7 @@ rule.
 Three changes, all presentation: a standalone `/try/` page, a real mobile pass on both
 existing pages, and a designed state for recipes that have no photograph.
 
-**Why.** The researcher will ask a classroom to open the demonstration on their own phones. Rish's
+**Why.** Khushi will ask a classroom to open the demonstration on their own phones. Rish's
 verdict on the current build: the site "is not optimized for the phone at all", and the
 three-round demonstration "feels incomplete... like a three step demo which has no real
 value behind it".
@@ -745,9 +745,9 @@ every truth-constraint disclosure (no participant recruited, no survey run, what
 study would still need) intact.
 
 **Why.** Rish's instruction: the internal planning history - the deadline, the access
-problem, what was originally pictured - is his and the researcher's business, not the audience's.
+problem, what was originally pictured - is his and Khushi's business, not the audience's.
 It belongs in the paper's methodology section and in this project's own internal record
-(this log, `DESIGN.md`'s history, the handover package the researcher uses to write that section),
+(this log, `DESIGN.md`'s history, the handover package Khushi uses to write that section),
 not read aloud from a public page or spoken in presenter mode to a classroom. Removing it
 does not touch any truth constraint: the page still states plainly, in the limits chapter
 and in the "Try it yourself" banner, that no participant was recruited, no survey was run,
@@ -757,7 +757,7 @@ took this shape instead of the one first pictured.
 **Impact.** Presentation only. `DESIGN.md`'s chapter table drops "The gap" row to match the
 built page (now seven chapters, not eight). No protocol value, run, metric or claim
 changes. The handover package (`04_CALCULATIONS_WORKED.md`, `08_LIMITATIONS.md`,
-`01_WHAT_CHANGED_AND_WHY.md`) is unaffected and keeps the full constraint history - the researcher
+`01_WHAT_CHANGED_AND_WHY.md`) is unaffected and keeps the full constraint history - Khushi
 needs it to write the paper's own limitations and methodology sections, which is a
 different audience and a different disclosure obligation than a live public page.
 
@@ -845,7 +845,7 @@ card of the six picks and a call to action that opens the demo.
 about the cause: one page was trying to be both a narrative that is read and a tool that is
 operated. The sticky control panel, the embedded "Try it yourself," and the full board,
 landscape and funnel stack are what a presenter operates, and on a page meant to be read they
-compete with the argument. The researcher's ask on the 8 September call was a seamless flow without
+compete with the argument. Khushi's ask on the 8 September call was a seamless flow without
 tab-switching *between a landing page and a demo she had to hunt for*; a clear hand-off from
 the story to a demo page on the same site satisfies that without the weight.
 
@@ -873,7 +873,7 @@ sheet and the handover demo guide are updated to the two URLs.
 The project page and the demo become one page. The visual direction changes to a cookbook
 with menu elements. Photographs are introduced under a strict sourcing rule.
 
-**Why.** On the 8 September call the researcher, who presents this, asked for four things: colour and
+**Why.** On the 8 September call Khushi, who presents this, asked for four things: colour and
 food, no tab-switching between a landing page and a demo, a narrative order (intro, methods,
 results, demo), and her own calculations shown on screen. She also said the current page
 "feels very boring." The existing project page was, separately, out of date: it still stated
@@ -883,7 +883,7 @@ Three directions were offered and Rish chose: **the Cookbook, with Menu elements
 where they explain something.** Recorded in `DESIGN.md`.
 
 **On the single page.** `/demo/` is retired in favour of `/#demo`; the old URL redirects (301)
-because it is printed in documents already handed to the researcher. The demo's scripts and data
+because it is printed in documents already handed to Khushi. The demo's scripts and data
 extract move to `/assets/`. The root page's Content-Security-Policy changes from
 `script-src 'none'` to `script-src 'self'` with `connect-src 'self'`, approved by Rish; no
 third-party script or outbound connection is admitted. The data extract gets its own
@@ -933,7 +933,7 @@ explanation sheet - and a reader still has to take it on trust.
 
 Letting someone feel the difference between sixty options and six, and then telling them
 directly that feeling it is not evidence, teaches the limitation better than another
-disclaiming paragraph. It also gives the researcher and a classroom the original idea in thirty
+disclaiming paragraph. It also gives Khushi and a classroom the original idea in thirty
 seconds rather than a description of it.
 
 **On the deviation.** The spec says "no decision timers" and "this demo collects nothing."
@@ -992,7 +992,7 @@ method, a live value, or a link. Band colour is never used to set text.
 or claim is touched; `data.json` and its contract with `scripts/export_demo.py` are
 unchanged, and every number rendered still comes from the export. `protocol_version` is not
 bumped, because nothing methodological moved. The five tab names are deliberately unchanged:
-they are documented in the explanation sheet already handed to the researcher.
+they are documented in the explanation sheet already handed to Khushi.
 
 **Superseded.** `DESIGN.md`'s "Engine owner: CSS, exclusively" line, and its truth-constraint
 note that no recipe, score or result exists yet - results now exist and are rendered from the
@@ -1061,14 +1061,14 @@ Three things keep it honest:
 
 **Why it earns its place.** "Recall@6 was zero" and "the model is inert" are different
 claims, and the first does not license the second. Reporting only the zero would leave
-the researcher unable to say which one the evidence supports.
+Khushi unable to say which one the evidence supports.
 
 **What it still cannot support:** anything about choice overload, satisfaction, decision
 speed or any human outcome. It is a ranking position.
 
 ## D-022 - Evaluate every eligible user, not a 5,000 sample
 
-**Date:** 2026-09-06 · **Owner:** Rish (implementation) · **Status:** APPROVED - the researcher,
+**Date:** 2026-09-06 · **Owner:** Rish (implementation) · **Status:** APPROVED - Khushi,
 2026-09-11 ("Approved - use all eligible users for the 2018 final evaluation, no 5,000
 cap. Go ahead and run it.", relayed by Rish the same day)
 
@@ -1130,7 +1130,7 @@ Three ways forward, in order of preference:
    few hundred rows shown for academic illustration is a far weaker claim than a mirror.
 3. **Run it locally on the presenting machine.** Zero distribution, but no link.
 
-**This is Rish and the researcher's call, and a supervisor is the right person to confirm it.**
+**This is Rish and Khushi's call, and a supervisor is the right person to confirm it.**
 Academic use in a classroom is close to the centre of what fair dealing is for, but that is
 not a judgement this repository should make silently. What the repository does is record
 the licence exactly as stated and refuse to assume permission.
@@ -1214,11 +1214,11 @@ from scratch each session. The system itself was not invented - it already exist
 
 | # | Decision | Needs |
 |---|---|---|
-| **A-001** | The 2017/2018 temporal windows are workable against the downloaded data | The audit's coverage verdict, then the researcher |
-| **A-002** | Positive = 4–5; rating 0 = unknown | Researcher (methodology) |
-| **A-003** | Warm-user eligibility ≥ 5 distinct historical positives | Researcher (methodology) |
-| **A-004** | `k = 6`, `b_g = 3`, four bands at 15/30/60 minutes | Researcher + instructor (syllabus fit) |
-| **A-005** | Recall@6 primary, NDCG@6 secondary; no p-values | Researcher + instructor |
+| **A-001** | The 2017/2018 temporal windows are workable against the downloaded data | The audit's coverage verdict, then Khushi |
+| **A-002** | Positive = 4–5; rating 0 = unknown | Khushi (methodology) |
+| **A-003** | Warm-user eligibility ≥ 5 distinct historical positives | Khushi (methodology) |
+| **A-004** | `k = 6`, `b_g = 3`, four bands at 15/30/60 minutes | Khushi + instructor (syllabus fit) |
+| **A-005** | Recall@6 primary, NDCG@6 secondary; no p-values | Khushi + instructor |
 | **A-006** | The restricted continuous LP with duality as the OR content | Instructor (syllabus fit) |
 | **A-007** | Whether formal significance tests are required | Instructor — must be specified **before** the final test set is touched |
 | **A-008** | Redistribution of raw data or review text | The Kaggle licence wording; currently unknown, therefore **no** |

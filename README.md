@@ -263,8 +263,8 @@ cleaning and written only to gitignored `data/interim/`.
 
 Rish owns the implementation: acquisition support, cleaning, audit, technical design, the
 AI layer, the LP and duality work, evaluation, statistics, the demo, tests and technical
-documentation. The research is by a collaborator who prefers not to be named: literature, theory,
-methodology approval, interpretation, discussion, referencing, submission and the viva. See
+documentation. Khushi owns the research: literature, theory, methodology approval,
+interpretation, discussion, referencing, submission and the viva. See
 [`docs/CONTRIBUTION_DISCLOSURE.md`](docs/CONTRIBUTION_DISCLOSURE.md).
 
 ## References

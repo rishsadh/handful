@@ -45,7 +45,7 @@ Everything in this repository. Specifically:
 - **Technical documentation** — README, data dictionary, technical methods, decision log,
   limitations, and the Results Pack generator.
 
-## The researcher — research
+## Khushi — research
 
 - Research question, scope and instructor approval.
 - Literature review and theoretical framing, including the choice-overload basis.
@@ -61,7 +61,7 @@ Everything in this repository. Specifically:
 
 Neither person wrote the other's contribution. In particular:
 
-- The researcher did **not** write the code in this repository.
+- Khushi did **not** write the code in this repository.
 - Rish did **not** write the research paper, its literature review, its interpretation, or
   its conclusions.
 
@@ -91,7 +91,7 @@ the institution's own form.
 **This document does not determine authorship.** Institutional policy does, and it must be
 followed.
 
-The facts a policy would need are above: the researcher is responsible for the research design,
+The facts a policy would need are above: Khushi is responsible for the research design,
 theory, interpretation and written work; Rish is responsible for the entire technical
 implementation and its documentation. How that maps onto authorship, acknowledgement, or a
 declared technical contribution is a question for the department, the supervisor, and the

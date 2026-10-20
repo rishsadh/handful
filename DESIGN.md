@@ -4,7 +4,7 @@ The visual world, recorded as built so no session re-derives it. Rewritten 2026-
 end of the ceiling pass (D-029) and recomposed 2026-09-09 (D-032); the direction is D-029's,
 the composition is D-032's.
 
-**`project_mode`: `independent`.** This is Rish and the researcher's academic project, not a Reidify
+**`project_mode`: `independent`.** This is Rish and Khushi's academic project, not a Reidify
 surface and not client work. Reidify's charcoal/bone/chrome/copper identity **never appears
 here**. The principles transfer; the values do not.
 
@@ -345,7 +345,7 @@ Binding, and they outrank visual ambition:
   nutrition or allergy safety as an outcome. Motion must not imply one either — nothing
   animates to suggest relief or delight at being given fewer options.
 - Review text is never rendered. Raw user ids are never shown.
-- The researcher's introduction is pending and renders as an explicit `[[CONFIRM: ...]]` block in
+- Khushi's introduction is pending and renders as an explicit `[[CONFIRM: ...]]` block in
   the mono register the content never uses. Nothing plausible stands in for it.
 - Where the honest result is unflattering, it is stated plainly with the same visual weight
   a favourable one would get.
@@ -359,6 +359,6 @@ Binding, and they outrank visual ambition:
   the box-open state, the pencil, the stack of forty) - catalogued in `img/gen/manifest.json`,
   not yet placed (D-035).
 - `PRODUCT.md` and `VOICE.md` at the root.
-- The researcher's introduction into the pending block.
+- Khushi's introduction into the pending block.
 - A larger extract, if the licence position ever allows it: the box count is real but the
   candidates a slider can reach are a minimal extract, and the page says so.

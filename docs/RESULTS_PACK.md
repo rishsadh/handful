@@ -1,6 +1,6 @@
 # Results Pack — Food.com recipe shortlisting
 
-**For:** the researcher (research writing, interpretation, submission)
+**For:** Khushi (research writing, interpretation, submission)
 **Prepared by:** the technical pipeline in `handful`, run `final-20260911T120041Z-5af9c102`
 **Protocol version:** 2.0.0
 **Run status:** completed

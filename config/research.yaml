@@ -1,6 +1,6 @@
 # Research protocol. Locked by Release 2.0 of the source-of-truth specification.
 # Changing anything under `protocol:` is a methodological change and requires a
-# DECISION_LOG entry plus the researcher's approval. Bump `protocol_version` when you do.
+# DECISION_LOG entry plus Khushi's approval. Bump `protocol_version` when you do.
 
 protocol_version: "2.0.0"
 
@@ -58,7 +58,7 @@ protocol:
   # (validation 202 -> 812 rankable users, final 126 -> 530) while the uncapped run
   # costs only minutes, because only ranking-eligible users are ever scored. Using
   # the cap here would have thrown away statistical power for no reason.
-  # Population change - recorded as D-022, needs the researcher's approval before the final run.
+  # Population change - recorded as D-022, needs Khushi's approval before the final run.
   max_users: null                      # null = use every eligible user
   cohort_seed: 42
 

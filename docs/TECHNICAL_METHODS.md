@@ -1,6 +1,6 @@
 # Technical methods
 
-Written so that the researcher can describe the method accurately without reading Python, and so
+Written so that Khushi can describe the method accurately without reading Python, and so
 that a reviewer can check that each choice does what it claims. Every design decision that
 could plausibly have gone the other way says *why* it went this way.
 

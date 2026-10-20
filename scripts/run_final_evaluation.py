@@ -5,7 +5,7 @@ This runs **once**, under a frozen configuration. Two gates protect that:
 
 1. `config/FROZEN.lock` must exist and its recorded config fingerprint must match the
    current configuration. Create it with `--freeze` once, deliberately, after validation
-   is finished and the researcher has approved the protocol.
+   is finished and Khushi has approved the protocol.
 2. The test suite must pass. A final result produced by code with failing tests is not a
    result.
 
