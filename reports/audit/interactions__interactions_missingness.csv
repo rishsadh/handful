@@ -1,0 +1,5 @@
+column,dtype,n_missing,pct_missing,n_blank_string
+user_id,Int64,0,0.0,0
+recipe_id,Int64,0,0.0,0
+date,str,0,0.0,0
+rating,Int64,0,0.0,0

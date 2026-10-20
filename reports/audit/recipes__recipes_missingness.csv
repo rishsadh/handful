@@ -1,0 +1,13 @@
+column,dtype,n_missing,pct_missing,n_blank_string
+name,str,1,0.0004,0
+id,Int64,0,0.0,0
+minutes,Int64,0,0.0,0
+contributor_id,Int64,0,0.0,0
+submitted,str,0,0.0,0
+tags,str,0,0.0,0
+nutrition,str,0,0.0,0
+n_steps,Int64,0,0.0,0
+steps,str,0,0.0,0
+description,str,4979,2.1495,0
+ingredients,str,0,0.0,0
+n_ingredients,Int64,0,0.0,0

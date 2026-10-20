@@ -1,0 +1,6 @@
+# Two pages (D-028): the story at / and the standalone demo at /demo/. Both share
+# assets/. No redirects: /demo/ is a real page again.
+
+[build]
+  publish = "site"
+  command = ""

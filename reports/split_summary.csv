@@ -1,0 +1,3 @@
+stage,history_end_exclusive,label_start,label_end_inclusive,n_history_events,n_label_events,n_catalogue_recipes,n_users_in_history,n_users_with_any_positive_history,n_history_eligible_users,cohort_capped,cohort_cap,cohort_seed,n_cohort_users,n_cohort_users_with_any_future_event,n_ranking_eligible_users,min_distinct_positive_history
+validation,2017-01-01,2017-01-01,2017-12-31,1078978,27004,230064,190634,157315,20389,True,5000,42,5000,223,202,5
+final,2018-01-01,2018-01-01,2018-12-20,1105982,20609,230352,210253,169390,20557,True,5000,42,5000,134,126,5

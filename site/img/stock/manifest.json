@@ -1,0 +1,87 @@
+{
+  "hero": [
+    {
+      "file": "hero.jpg",
+      "role": "hero",
+      "title": "2010-03-30",
+      "creator": "dphiffer",
+      "creator_url": "https://www.flickr.com/photos/35034363271@N01",
+      "license": "by",
+      "license_version": "2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://www.flickr.com/photos/35034363271@N01/4478265818",
+      "original_url": "https://live.staticflickr.com/4018/4478265818_8874da8740_b.jpg",
+      "width": 960,
+      "height": 640,
+      "bytes": 112286
+    }
+  ],
+  "band-moderate": [
+    {
+      "file": "band-moderate.jpg",
+      "role": "band-moderate",
+      "title": "How to Roast Vegetables for the Week",
+      "creator": "simpleprovisions",
+      "creator_url": "https://www.flickr.com/photos/80665970@N03",
+      "license": "by",
+      "license_version": "2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://www.flickr.com/photos/80665970@N03/14298786653",
+      "original_url": "https://live.staticflickr.com/3818/14298786653_e5bc6e0585_b.jpg",
+      "width": 1000,
+      "height": 716,
+      "bytes": 146495
+    }
+  ],
+  "band-quick": [
+    {
+      "file": "band-quick.jpg",
+      "role": "band-quick",
+      "title": "poached eggs with avocado and toast",
+      "creator": "Stacy Spensley",
+      "creator_url": "https://www.flickr.com/photos/21001756@N06",
+      "license": "by",
+      "license_version": "2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://www.flickr.com/photos/21001756@N06/4532239153",
+      "original_url": "https://live.staticflickr.com/4053/4532239153_d67b8b9a04_b.jpg",
+      "width": 1000,
+      "height": 667,
+      "bytes": 100443
+    }
+  ],
+  "band-fast": [
+    {
+      "file": "band-fast.jpg",
+      "role": "band-fast",
+      "title": "Paella",
+      "creator": "Philippe Gama",
+      "creator_url": "https://www.flickr.com/photos/69328192@N05",
+      "license": "by",
+      "license_version": "2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://www.flickr.com/photos/69328192@N05/7633828446",
+      "original_url": "https://live.staticflickr.com/7249/7633828446_c0296d9887_b.jpg",
+      "width": 1024,
+      "height": 696,
+      "bytes": 142825
+    }
+  ],
+  "band-long": [
+    {
+      "file": "band-long.jpg",
+      "role": "band-long",
+      "title": "Preparing 'stracotto' in a slow cooker.",
+      "creator": "Monica Arellano-Ongpin",
+      "creator_url": "https://www.flickr.com/photos/22118036@N00",
+      "license": "by",
+      "license_version": "2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://www.flickr.com/photos/22118036@N00/3600096477",
+      "original_url": "https://live.staticflickr.com/3644/3600096477_fdab35e516_b.jpg",
+      "width": 1023,
+      "height": 739,
+      "bytes": 152943
+    }
+  ]
+}

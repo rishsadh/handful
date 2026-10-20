@@ -1,0 +1,68 @@
+# AI scoring layer and solver settings.
+# The encoder is a FROZEN pretrained text encoder. It is not a generator, not a
+# satisfaction predictor and not a probability model.
+
+encoder:
+  backend: "sentence_transformers"
+  model_id: "sentence-transformers/all-MiniLM-L6-v2"
+  # Pinned 2026-09-07 to the revision that actually produced data/processed/embeddings,
+  # resolved from Hugging Face during that run. The specification requires this pinned
+  # before any final-evaluation run, and it is also the embedding cache key: changing
+  # it invalidates all 230,541 vectors and costs another ~2 hours of CPU.
+  model_revision: "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  max_seq_length: 256          # wordpiece limit declared by the model card
+  normalize_embeddings: true
+  device: "auto"               # auto -> cuda if available else cpu; recorded in the manifest
+  precision: "float32"
+  batch_size: 256
+
+text_render:
+  # Deterministic field order. Nothing label-derived may be added here.
+  field_order: ["name", "ingredients", "tags", "description"]
+  separator: " | "
+  description_max_chars: 300
+  lowercase: false
+  # Fields that are forbidden in the rendered text. Enforced by a unit test.
+  forbidden_fields:
+    - "review"
+    - "user_id"
+    - "rating"
+    - "n_ratings"
+    - "avg_rating"
+    - "popularity"
+    - "submitted"
+    - "date"
+    - "contributor_id"
+
+scoring:
+  # s(u,i) = (1 + cosine(p_u, e_i)) / 2   -> [0, 1]
+  formula: "half_shifted_cosine"
+  clip_range: [0.0, 1.0]       # clipping is for floating-point drift only
+  profile: "mean_of_positive_history"
+  profile_weights: "equal"     # no post-test weight tuning
+  cold_start_policy: "flag_and_use_popularity_fallback"   # demo only; excluded from AI claims
+
+embedding_cache:
+  enabled: true
+  dir: "data/processed/embeddings"
+  # Cache key = (recipe_id, rendered_text_sha256, model_id, model_revision)
+  key_fields: ["recipe_id", "text_sha256", "model_id", "model_revision"]
+
+solver:
+  library: "scipy.optimize.linprog"
+  method: "highs-ds"           # simplex -> basic solution, needed for the integrality argument
+  # SciPy minimises, so the objective vector is c = -scores.
+  tolerance: 1.0e-7            # equality residual, bound violation, distance-to-integer
+  # Exact pruning for the PRIMAL shortlist only: at most top-b_g candidates per band.
+  # The full eligible catalogue still defines evaluation denominators, and reported dual
+  # certificates are produced from the FULL unpruned problem.
+  primal_band_pruning: true
+  dual_uses_full_problem: true
+  tie_break: "score_desc_then_recipe_id_asc"
+
+ablation:
+  tfidf:
+    enabled: false             # a separately labelled ablation, never a silent substitute
+    max_features: 50000
+    ngram_range: [1, 2]
+    min_df: 2

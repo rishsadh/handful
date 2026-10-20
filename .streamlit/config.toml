@@ -1,0 +1,22 @@
+# The demo's visual system is an editorial light theme. Without pinning the base,
+# Streamlit follows the viewer's OS dark-mode preference and renders the app's dark text
+# as white on the light surfaces this CSS defines - which is invisible. The palette here
+# matches app/components/theme.py.
+
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+backgroundColor = "#f7f8fa"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#0b0d10"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# The demo is local-only. Public deployment is not authorised by the specification.
+address = "localhost"
+
+[client]
+toolbarMode = "minimal"

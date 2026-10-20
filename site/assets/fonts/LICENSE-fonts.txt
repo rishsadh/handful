@@ -1,0 +1,10 @@
+Self-hosted fonts, pulled from Google Fonts on 2026-09-11 and vendored here so the
+site makes no request to fonts.googleapis.com or fonts.gstatic.com.
+
+Inter        — SIL Open Font License, 1.1 — https://github.com/rsms/inter
+Newsreader   — SIL Open Font License, 1.1 — https://github.com/newsreader/newsreader
+Courier Prime — SIL Open Font License, 1.1 — https://github.com/quotecommacom/CourierPrime
+
+The SIL OFL permits embedding, self-hosting and redistribution as part of a larger
+work, including on the web, without royalty. Full licence text:
+https://scripts.sil.org/OFL

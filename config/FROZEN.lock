@@ -1,0 +1,7 @@
+{
+  "frozen_utc": "2026-09-11T11:37:27.488982+00:00",
+  "protocol_version": "2.0.0",
+  "config_sha256": "258f2c7edf14bcbfc7fb2c8ca475557b1a51097b799de55eb793e6271ca1f873",
+  "code_revision": "a0b934de061090434913336b73021b39216fc80f",
+  "note": "The final test set may be used once under this configuration. Any change to config/ invalidates this lock."
+}

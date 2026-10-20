@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Handful — try it yourself</title>
+<meta name="description" content="Pick a recipe from sixty, then from six, then from six chosen by the model. One minute, on your phone.">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a211b'/%3E%3Cg fill='%23fbf5ea'%3E%3Crect x='7' y='16' width='4' height='9' rx='1.2'/%3E%3Crect x='13' y='11' width='4' height='14' rx='1.2'/%3E%3Crect x='19' y='7' width='4' height='18' rx='1.2'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+
+<body class="try-page">
+<!-- DIRECTION CONTRACT · seed e824c2b · form: the recipe card index (6 of 7) · D-029 · D-033: try it yourself as its own surface -->
+
+<!-- Static form for Netlify's deploy-time form detection. Never shown; the page submits
+     it with fetch(). Anonymous only: times, which card was picked, screen width. -->
+<form name="try-run" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="text" name="bot-field">
+  <input type="text" name="session"><input type="text" name="profile"><input type="text" name="order">
+  <input type="text" name="t_menu"><input type="text" name="t_random"><input type="text" name="t_ours">
+  <input type="text" name="pick_menu"><input type="text" name="pick_random"><input type="text" name="pick_ours">
+  <input type="text" name="screen"><input type="text" name="started_utc"><input type="text" name="menu_size">
+</form>
+
+<div class="ground" aria-hidden="true"><picture><source media="(max-width:760px)" srcset="/img/gen/ground-linen-tall-w1080.webp"><img src="/img/gen/ground-linen-wide-w1600.webp" alt="" decoding="async"></picture></div>
+<header class="site-head static">
+  <div class="wrap">
+    <a class="mark" href="/" aria-label="Handful, the story">
+      <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#2a211b"/><g fill="#fbf5ea"><rect x="7" y="16" width="4" height="9" rx="1.2"/><rect x="13" y="11" width="4" height="14" rx="1.2"/><rect x="19" y="7" width="4" height="18" rx="1.2"/></g></svg>
+      <span>Handful</span>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="/demo/">The box</a>
+      <a href="/">← The story</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap try-wrap">
+  <div id="banners"></div>
+  <div id="try" aria-live="polite"><p class="hint">Loading…</p></div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p style="margin-bottom:.6rem">This is a demonstration, not the study. The study is at <a href="/">handful.netlify.app</a>.</p>
+    <div id="credits" class="credits" style="margin-bottom:.6rem"></div>
+    <p style="margin-bottom:0">Not affiliated with Food.com.</p>
+  </div>
+</footer>
+
+<script src="/assets/viz.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>

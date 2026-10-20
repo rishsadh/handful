@@ -1,0 +1,102 @@
+# Research protocol. Locked by Release 2.0 of the source-of-truth specification.
+# Changing anything under `protocol:` is a methodological change and requires a
+# DECISION_LOG entry plus the researcher's approval. Bump `protocol_version` when you do.
+
+protocol_version: "2.0.0"
+
+dataset:
+  name: "Food.com Recipes and Interactions"
+  uploader: "Shuyang Li (shuyangli94)"
+  source_url: "https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions"
+  # --- The three fields below MUST be filled in by hand after downloading. ---
+  # scripts/acquire_data.py refuses to write a provenance manifest while any of
+  # them still reads UNRECORDED.
+  kaggle_version: "2"                # verified on the Kaggle dataset page, 2026-09-06 (892.41 MB, 8 files)
+  download_date: "2026-09-06"        # via the official Kaggle API, files RAW_recipes.csv + RAW_interactions.csv only
+  licence_text: "Data files (c) Original Authors"   # transcribed exactly from the Kaggle dataset page, 2026-09-06
+  # "Data files (c) Original Authors" is Kaggle's most restrictive standard label. It
+  # asserts copyright and grants no redistribution rights, so this is a verified false,
+  # not an unknown. Consequence: no public mirror, and no public hosting of a
+  # substantial extract. See D-021 in docs/DECISION_LOG.md.
+  licence_permits_redistribution: false
+  required_files:
+    - "RAW_recipes.csv"
+    - "RAW_interactions.csv"
+
+protocol:
+  # ---- positive rating definition ----
+  positive_ratings: [4, 5]
+  observed_nonpositive_ratings: [1, 2, 3]
+  unknown_rating_value: 0            # NOT a zero-star dislike. Unknown/unrated.
+
+  # ---- warm-user eligibility ----
+  min_distinct_positive_history: 5
+
+  # ---- shortlist ----
+  shortlist_size_k: 6
+  band_cap_b: 3
+
+  # ---- preparation-time bands (minutes). Half-open upper-inclusive. ----
+  # G1: 0 < m <= 15 ; G2: 15 < m <= 30 ; G3: 30 < m <= 60 ; G4: m > 60
+  band_edges: [15, 30, 60]
+  band_labels: ["G1_0_15", "G2_15_30", "G3_30_60", "G4_60_plus"]
+
+  # ---- locked temporal protocol ----
+  stages:
+    validation:
+      history_end_exclusive: "2017-01-01"
+      label_start: "2017-01-01"
+      label_end_inclusive: "2017-12-31"
+    final:
+      history_end_exclusive: "2018-01-01"
+      label_start: "2018-01-01"
+      label_end_inclusive: null        # null = the dataset's observed endpoint, computed from the audit
+
+  # ---- cohort scope ----
+  # The specification prefers every eligible user and treats the 5,000 cap as a
+  # compute fallback. Measured 2026-09-06: the cap cost 4x the evaluated population
+  # (validation 202 -> 812 rankable users, final 126 -> 530) while the uncapped run
+  # costs only minutes, because only ranking-eligible users are ever scored. Using
+  # the cap here would have thrown away statistical power for no reason.
+  # Population change - recorded as D-022, needs the researcher's approval before the final run.
+  max_users: null                      # null = use every eligible user
+  cohort_seed: 42
+
+  # ---- metrics ----
+  primary_metric: "recall_at_k"
+  secondary_metric: "ndcg_at_k"
+  macro_average: true                  # per-user mean, never review-weighted
+
+  # ---- methods evaluated ----
+  methods: ["RANDOM", "POPULARITY_LP", "AI_TOPK", "AI_LP"]
+  random_repeats: 20
+  random_seed: 42
+
+  # ---- preplanned paired comparisons ----
+  paired_comparisons:
+    - ["AI_LP", "POPULARITY_LP"]
+    - ["AI_LP", "AI_TOPK"]
+  bootstrap_resamples: 2000
+  bootstrap_seed: 42
+  bootstrap_ci: 0.95
+
+sensitivity:
+  # Predeclared before seeing results. Do not add a sweep after looking at the numbers.
+  length_sweep:
+    - { k: 4, b: 2 }
+    - { k: 6, b: 3 }
+    - { k: 8, b: 4 }
+  cap_sweep:
+    - { k: 6, b: 2 }
+    - { k: 6, b: 3 }
+    - { k: 6, b: 6 }   # b == k removes the effective band cap
+
+paths:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  quarantine_dir: "data/interim/quarantine"
+  runs_dir: "runs"
+  figures_dir: "figures"
+  reports_dir: "reports"
+  docs_dir: "docs"

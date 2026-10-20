@@ -1,0 +1,28 @@
+# The project page now carries the interactive demo (D-027), so it needs its own script and
+# a same-origin fetch for the data extract. Still no third-party scripts, no outbound
+# connections beyond this origin, and every image is self-hosted (img-src 'self').
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; script-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+
+# The data extract is not licensed for redistribution (D-021): keep it out of search
+# indexes even though the page that reads it is public.
+/assets/data.json
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+# The demo re-solves the shortlist in the browser, so it needs its own script and a
+# same-origin fetch for data.json. Everything else stays as locked down as the main page:
+# no third-party scripts, no outbound connections beyond this origin.
+#
+# X-Robots-Tag: the extract is not licensed for redistribution (D-021), so keep it out of
+# search indexes, since the page that reads it is public (D-017 resolution, D-042).
+/demo/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; script-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+  X-Robots-Tag: noindex, nofollow, noarchive

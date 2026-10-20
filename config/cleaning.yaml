@@ -1,0 +1,108 @@
+# Cleaning rules. Every rule here produces a counted stage in the exclusion ledger.
+# Order matters: the ledger is written in exactly the order given by `recipe_stages`
+# and `interaction_stages`.
+
+recipes:
+  # Columns the core banded model cannot run without.
+  required_for_core:
+    - "id"
+    - "name"
+    - "submitted"
+    - "minutes"
+    - "ingredients"
+
+  minutes:
+    require_positive: true       # minutes must be > 0
+    require_finite: true
+    # Deliberately NO IQR trimming. Marinating / chilling / slow cooking are legitimate.
+    # Long durations are flagged for source-based review, not deleted. The audit
+    # confirmed why: the genuine long tail is homemade vanilla at six months, mead,
+    # peach brandy and rumtopf. An IQR rule would have deleted all of them and
+    # quietly gutted band G4.
+    #
+    # One value is different. Exactly one recipe carries 2147483647 - the signed
+    # 32-bit maximum - which reads as 4,086 years and is an integer overflow
+    # sentinel, not a duration. It is excluded by name, with a count.
+    sentinel_values: [2147483647]
+    flag_above_minutes: 1440     # 24h - flagged only, never dropped automatically
+
+  text:
+    normalise_whitespace: true
+    missing_description_to_empty: true   # with a `description_missing` flag column
+
+  list_fields: ["tags", "ingredients", "steps", "nutrition"]
+  parser: "ast.literal_eval"     # never eval()
+  keep_raw_strings: true         # raw_<field> retained alongside the parsed value
+
+  nutrition:
+    expected_length: 7
+    # Commonly described as calories + six percentage-daily-value fields, NOT seven gram
+    # quantities. Units stay unverified until checked against the downloaded release.
+    units_verified: false
+    used_in_core_model: false
+
+  derived_count_checks:
+    - { source: "n_steps", parsed: "steps" }
+    - { source: "n_ingredients", parsed: "ingredients" }
+
+  duplicates:
+    drop_exact_duplicate_rows: true
+    # Conflicting rows sharing a recipe id are quarantined, not silently kept-first.
+    conflicting_id_policy: "quarantine"
+
+  # Ordered exclusion ledger stages for recipes.
+  recipe_stages:
+    - "raw"
+    - "drop_exact_duplicate_rows"
+    - "quarantine_conflicting_ids"
+    - "require_valid_id"
+    - "require_name"
+    - "require_valid_submitted_date"
+    - "require_positive_finite_minutes"
+    - "exclude_sentinel_minutes"
+    - "require_parsable_ingredients"
+    - "core_catalogue"
+
+interactions:
+  required_columns: ["user_id", "recipe_id", "date", "rating"]
+
+  rating:
+    valid_explicit: [1, 2, 3, 4, 5]
+    unknown_value: 0
+    quarantine_out_of_range: true
+
+  duplicates:
+    drop_exact_duplicate_rows: true
+
+  repeat_pairs:
+    # For novel-item evaluation keep the earliest event per (user_id, recipe_id).
+    keep: "earliest"
+    # Tied earliest dates with conflicting ratings: drop the pair from label evaluation
+    # but still mark the recipe as SEEN for that user.
+    tied_conflict_policy: "exclude_from_labels_mark_seen"
+
+  joins:
+    drop_orphan_recipe_ids: true
+    enforce_many_to_one: true    # a join must never multiply interaction rows
+
+  temporal:
+    # Interactions dated before the recipe's submitted date are inconsistent.
+    exclude_interaction_before_submission: true
+
+  review_text:
+    retain_locally: true
+    use_in_features: false       # never a feature
+    expose_in_demo: false        # never rendered in the demo
+    commit_to_git: false
+
+  # Ordered exclusion ledger stages for interactions.
+  interaction_stages:
+    - "raw"
+    - "drop_exact_duplicate_rows"
+    - "quarantine_missing_keys"
+    - "quarantine_invalid_dates"
+    - "quarantine_invalid_ratings"
+    - "drop_orphan_recipe_ids"
+    - "collapse_repeat_pairs_to_earliest"
+    - "exclude_interaction_before_submission"
+    - "core_interactions"

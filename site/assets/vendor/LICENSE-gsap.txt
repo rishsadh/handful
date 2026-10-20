@@ -1,0 +1,4 @@
+GSAP 3.15.0 - gsap.min.js and ScrollTrigger.min.js
+Vendored from the npm package "gsap" (dist/). GSAP is distributed under the GSAP Standard License,
+free for commercial and non-commercial use since version 3.13 (Webflow, 2025): https://gsap.com/licensing/
+No modifications. Vendored because this site serves script-src 'self' and admits no CDN.

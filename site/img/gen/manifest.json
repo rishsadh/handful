@@ -1,0 +1,650 @@
+{
+  "note": "Generated images (OpenAI GPT Image, via ChatGPT, 2026-09-10). Atmosphere, category scenes and props only - never a photograph of any recipe in the study.",
+  "files": {
+    "ground-table-wide": {
+      "source": "A01_ground_table_wide.png",
+      "prompt": "A photograph of the surface of an old wooden kitchen table at night, seen from slightly above, lit by a single warm tungsten lamp out of frame upper-left; the light falls off into deep brown shadow by the right edge; fine film grain; 50mm lens at f/2, shallow focus on the near third of the table; matte, worn, no reflections; no objects, no text, no people. Landscape 16:9. Empty table, the lamp's pool of light occupying the left third. Handful archive at night: warm near-black brown #1f1712 to #2a211b, one 2800K source, real worn wood with weight and fine grain. No logos, brands, lettering, hands or saturated colours. Full-bleed photograph, 2048x1152 PNG, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface. The bare tabletop fills all four edges. No visible table edge or background furniture. Near-black brown across most of frame, restrained light pool only upper-left.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-table-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "ground-table-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "ground-table-tall": {
+      "source": "A02_ground_table_tall.png",
+      "prompt": "A photograph of the surface of an old wooden kitchen table at night, seen from slightly above, lit by a single warm tungsten lamp out of frame upper-left; the light falls off into deep brown shadow by the right edge; fine film grain; 50mm lens at f/2, shallow focus on the near third of the table; matte, worn, no reflections; no objects, no text, no people. Portrait 2:3. Empty wooden table, pool of light in upper third. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. The specified surface fills all edges; no background furniture. PNG, 1024x1536, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-table-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "ground-table-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "ground-linen-wide": {
+      "source": "A03_ground_linen_wide.png",
+      "prompt": "A photograph of the surface of an old wooden kitchen table at night, seen from slightly above, lit by a single warm tungsten lamp out of frame upper-left; the light falls off into deep brown shadow by the right edge; fine film grain; 50mm lens at f/2, shallow focus on the near third of the table; matte, worn, no reflections; no objects, no text, no people. Landscape 16:9. Instead of wood, a dark charcoal-brown linen cloth, slightly creased, same light. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. The specified surface fills all edges; no background furniture. PNG, 2048x1152, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-linen-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "ground-linen-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "ground-linen-tall": {
+      "source": "A04_ground_linen_tall.png",
+      "prompt": "A photograph of the surface of an old wooden kitchen table at night, seen from slightly above, lit by a single warm tungsten lamp out of frame upper-left; the light falls off into deep brown shadow by the right edge; fine film grain; 50mm lens at f/2, shallow focus on the near third of the table; matte, worn, no reflections; no objects, no text, no people. Portrait 2:3. Instead of wood, a dark charcoal-brown linen cloth, slightly creased, same light. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. The specified surface fills all edges; no background furniture. PNG, 1024x1536, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-linen-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "ground-linen-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "ground-box-wide": {
+      "source": "A05_ground_box_interior_wide.png",
+      "prompt": "Full-frame close view down inside an EMPTY DARK KRAFT CARD-INDEX BOX. Landscape 16:9. Looking down into the open interior of a large card-index box: the inside walls are dark kraft board, the bottom is empty, the lamp lights the far-left wall and the rest falls to black. No cards. No text. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. The specified surface fills all edges; no background furniture. PNG, 2048x1152, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface. The variant material is the sole subject and overrides the common table stem. One single uninterrupted photograph, never a collage or split frame. No wood grain. Deep near-black brown across most of frame.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-box-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "ground-box-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "ground-box-tall": {
+      "source": "A06_ground_box_interior_tall.png",
+      "prompt": "One portrait photograph, fully occupied by the empty inside of a dark kraft card-index box. Portrait 2:3. Looking down into the open interior of a large card-index box: the inside walls are dark kraft board, the bottom is empty, the lamp lights the far-left wall and the rest falls to black. No cards. No text. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. The specified surface fills all edges; no background furniture. PNG, 1024x1536, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface. The variant material is the sole subject and overrides the common table stem. One single uninterrupted photograph, never a collage or split frame. No wood grain. Deep near-black brown across most of frame.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-box-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "ground-box-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "ground-paper-wide": {
+      "source": "A07_ground_dark_paper_wide.png",
+      "prompt": "ONLY BLACK UNCOATED PAPER TOOTH, no wood, no planks. Landscape 16:9. A sheet of very dark, almost black, uncoated paper filling the frame, lit so a faint warm gradient runs from upper-left; visible paper tooth and grain; nothing else. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. The specified surface fills all edges; no background furniture. PNG, 2048x1152, highest available quality. STRICT EMPTY BACKGROUND: show only the specified bare surface or empty box interior. Zero cards, zero dividers, zero loose paper, zero props, zero furniture beyond the specified surface. The variant material is the sole subject and overrides the common table stem. One single uninterrupted photograph, never a collage or split frame. No wood grain. Deep near-black brown across most of frame.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "ground-paper-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "ground-paper-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "band-quick-wide": {
+      "source": "B01_quick_wide.png",
+      "prompt": "Unplated kitchen process: toast rests on the toaster edge, beside a buttered knife and a cracked eggshell. No plates, no saucers, no bowls, no serving dishes, no butter spread on toast. A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Landscape 16:9, 2048x1152. Quick, under fifteen minutes: a slice of toast just out of a toaster, a knife with butter, a cracked eggshell, a little steam; the objects small in a mostly dark frame. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality. No plated food of any kind. Objects small, much of the frame deep dark empty table.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-quick-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "band-quick-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "band-quick-tall": {
+      "source": "B02_quick_tall.png",
+      "prompt": "Unplated kitchen process: toast rests on the toaster edge, beside a buttered knife and a cracked eggshell. No plates, no saucers, no bowls, no serving dishes, no butter spread on toast. A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Portrait 2:3, 1024x1536. Quick, under fifteen minutes: a slice of toast just out of a toaster, a knife with butter, a cracked eggshell, a little steam; the objects small in a mostly dark frame. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality. No plated food of any kind. Objects small, much of the frame deep dark empty table.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-quick-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "band-quick-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "band-fast-wide": {
+      "source": "B03_fast_wide.png",
+      "prompt": "Dark electric hob, no flame, no coloured indicator lights. A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Landscape 16:9, 2048x1152. Fast, fifteen to thirty minutes: a black steel pan on a hob, oil shimmering, chopped onion and a wooden spatula beside it, a wisp of steam; no dish. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-fast-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "band-fast-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "band-fast-tall": {
+      "source": "B04_fast_tall.png",
+      "prompt": "Black steel pan on a dark electric hob, no flames or coloured lights. A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Portrait 2:3, 1024x1536. Fast, fifteen to thirty minutes: a black steel pan on a hob, oil shimmering, chopped onion and a wooden spatula beside it, a wisp of steam; no dish. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-fast-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "band-fast-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "band-moderate-wide": {
+      "source": "B05_moderate_wide.png",
+      "prompt": "A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Landscape 16:9, 2048x1152. Moderate, thirty to sixty minutes: a dark enamel oven tray of roughly chopped root vegetables, salt crystals, a sprig of thyme, resting on the table before going in; raw, not cooked. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-moderate-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "band-moderate-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "band-moderate-tall": {
+      "source": "B06_moderate_tall.png",
+      "prompt": "A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Portrait 2:3, 1024x1536. Moderate, thirty to sixty minutes: a dark enamel oven tray of roughly chopped root vegetables, salt crystals, a sprig of thyme, resting on the table before going in; raw, not cooked. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-moderate-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "band-moderate-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "band-long-wide": {
+      "source": "B07_long_wide.png",
+      "prompt": "A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Landscape 16:9, 2048x1152. Long, over an hour: a heavy cast-iron pot with its lid slightly off, a slow curl of steam, a wooden spoon resting against it; the contents in shadow, not visible. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-long-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "band-long-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "band-long-tall": {
+      "source": "B08_long_tall.png",
+      "prompt": "A close photograph on the same dark wooden kitchen table at night, single warm tungsten lamp upper-left, shallow focus, fine film grain, matte surfaces, 50mm at f/2; no people, no hands, no text, no packaging, no finished dish presented to camera. Portrait 2:3, 1024x1536. Long, over an hour: a heavy cast-iron pot with its lid slightly off, a slow curl of steam, a wooden spoon resting against it; the contents in shadow, not visible. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Anonymous process atmosphere only, no identifiable named recipe, no plated food. PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "band-long-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "band-long-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "field-still-wide": {
+      "source": "E01_field_still_wide_v2.png",
+      "prompt": "Landscape 16:9, 2048x1152. Looking along a vast, gently curving grid of blank cream index cards receding into darkness, hundreds of rows, the near cards sharp and lit warm from upper-left, the far cards falling out of focus and into near-black; no text, no people; the lower third of the frame darker, leaving room for a title. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Every card rests on a continuous physical dark surface, nothing floats. 50mm lens, shallow focus. PNG, highest available quality. A second distinct view with a subtly different curve in the grid, preserving light direction.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "field-still-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "file": "field-still-wide-w960.webp",
+          "w": 960,
+          "h": 540
+        }
+      ]
+    },
+    "field-still-tall": {
+      "source": "E02_field_still_tall.png",
+      "prompt": "Every card is a SINGLE THIN UNRULED BLANK CREAM SHEET with NO LINES of any colour. Portrait 2:3, 1024x1536. Looking along a vast, gently curving grid of blank cream index cards receding into darkness, hundreds of rows, the near cards sharp and lit warm from upper-left, the far cards falling out of focus and into near-black; no text, no people; grid receding upward, the lower half dark, leaving room for a title. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Every card rests on a continuous physical dark surface, nothing floats. 50mm lens, shallow focus. PNG, highest available quality. Entire lower half is near-black empty tabletop, cards occupy only the upper half.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "field-still-tall-w1080.webp",
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "file": "field-still-tall-w640.webp",
+          "w": 640,
+          "h": 960
+        }
+      ]
+    },
+    "share": {
+      "source": "F01_share_card.png",
+      "prompt": "1200x630 PNG. Exactly six blank cream index cards fanned on the dark wooden table at night, lit from upper-left, the left half of the frame empty and dark for a title to be added in HTML; no text. Quiet documentary photograph of only the explicitly requested subject. Matte worn surfaces with weight and fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. All six cards grouped in the right half, physically resting on the table with contact shadows, 50mm at f/2, highest available quality. If exact dimensions unavailable use 1536x804.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "share-w1200.webp",
+          "w": 1200,
+          "h": 630
+        }
+      ]
+    },
+    "prop-card-blank": {
+      "source": "C01_card_blank.png",
+      "prompt": "A single blank cream index card, 6 by 4 proportions, slight natural warp, matte card stock texture. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-card-blank-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-card-blank-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-card-ruled": {
+      "source": "C02_card_ruled.png",
+      "prompt": "A single cream index card, 6 by 4 proportions, slight natural warp, matte card stock texture, ruled: a single faint red line across the top and faint blue lines below, printed not handwritten, nothing else on it. Faint blue ruled lines are permitted for this item only. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-card-ruled-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-card-ruled-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-tab-quick": {
+      "source": "C03_card_tab_quick.png",
+      "prompt": "A single blank cream index card, 6 by 4 proportions, slight natural warp, matte card stock, with a coloured divider tab protruding from the top edge, tab colour #f28b67; the tab is blank. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-tab-quick-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-tab-quick-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-tab-fast": {
+      "source": "C04_card_tab_fast.png",
+      "prompt": "A single blank cream index card, 6 by 4 proportions, slight natural warp, matte card stock, with a coloured divider tab protruding from the top edge, tab colour #cf6c49; the tab is blank. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-tab-fast-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-tab-fast-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-tab-moderate": {
+      "source": "C05_card_tab_moderate.png",
+      "prompt": "A single blank cream index card, 6 by 4 proportions, slight natural warp, matte card stock, with a coloured divider tab protruding from the top edge, tab colour #ae4e2a; the tab is blank. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-tab-moderate-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-tab-moderate-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-tab-long": {
+      "source": "C06_card_tab_long.png",
+      "prompt": "A single blank cream index card, 6 by 4 proportions, slight natural warp, matte card stock, with a coloured divider tab protruding from the top edge, tab colour #8d2f04; the tab is blank. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-tab-long-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-tab-long-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-stack": {
+      "source": "C07_card_stack.png",
+      "prompt": "A neat stack of about forty blank cream index cards seen from a low three-quarter angle, edges slightly uneven. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-stack-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-stack-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-fan": {
+      "source": "C08_card_fan.png",
+      "prompt": "Exactly six blank cream index cards fanned like playing cards, overlapping, slight rotation between each, no writing, no person holding them. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-fan-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-fan-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-box-open": {
+      "source": "C09_box_open.png",
+      "prompt": "An open card-index box of dark kraft board with a hinged lid, empty inside, seen from a three-quarter front angle. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-box-open-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-box-open-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-box-full": {
+      "source": "C10_box_full.png",
+      "prompt": "An open card-index box of dark kraft board with a hinged lid, seen from a three-quarter front angle, tightly packed with the top edges of hundreds of cream cards, four coloured divider tabs visible at intervals (#f28b67, #cf6c49, #ae4e2a, #8d2f04). Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-box-full-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-box-full-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-stamp": {
+      "source": "C11_stamp_rubber.png",
+      "prompt": "A small wooden-handled rubber stamp lying on its side, red ink on the rubber face, no text visible on the face. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-stamp-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-stamp-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-stamp-impression": {
+      "source": "C12_stamp_impression.png",
+      "prompt": "Only an empty rounded rectangular outline stamped in muted red ink #a3232a. Real transparent alpha PNG with the entire centre and outside transparent. No paper, no card, no object, no background colour. Slightly uneven patchy rubber-stamp ink border, no words, no letters, no numbers, no writing. Landscape outline centred in a square 1254x1254 transparent canvas, occupies 70 percent. Flat ink only. Highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-stamp-impression-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-stamp-impression-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-pencil": {
+      "source": "C13_pencil.png",
+      "prompt": "A short, well-used natural wooden pencil, lying flat, unpainted, no markings. Only the single requested object, no card or paper beneath it. Fine material texture. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-pencil-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-pencil-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-clip": {
+      "source": "C14_paperclip.png",
+      "prompt": "A single brass paperclip, lying flat, dull metal. Only the single requested object, no card or paper beneath it. Fine material texture. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-clip-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-clip-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-label": {
+      "source": "C15_label_holder.png",
+      "prompt": "A small brass card-index label holder (the metal frame on the front of a drawer), empty, no text. Only the single requested object, no card or paper beneath it. Fine material texture. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-label-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-label-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "prop-receipt": {
+      "source": "C17_receipt_strip.png",
+      "prompt": "A narrow strip of cream till-roll paper, blank, torn at the bottom edge, slight curl. Handful: a recipe-card archive photographed at night. Real materials, matte cream card stock #fbf5ea and worn surfaces with weight; quiet documentary observation, fine photographic grain. Fixed single warm 2800K tungsten light upper-left, deep warm brown shadows #1f1712 to #2a211b. No text, handwriting, letters, numbers, logos, brands, packaging, people, faces or hands. No plastic sheen. No other saturated colours except the stated divider colours or ink. Isolated on truly transparent background, RGBA PNG with actual alpha, no opaque backdrop, no checkerboard pixels. Soft contact shadow included in alpha at surface contact, clean edges. Slight three-quarter angle from above unless specified. Single item filling about 70 percent of square frame, 1536x1536, highest available quality. Cards blank and unruled unless specifically ruled.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "prop-receipt-w900.webp",
+          "w": 900,
+          "h": 900
+        },
+        {
+          "file": "prop-receipt-w450.webp",
+          "w": 450,
+          "h": 450
+        }
+      ]
+    },
+    "tex-cardstock": {
+      "source": "D01_tex_cardstock.png",
+      "prompt": "A flat, evenly lit close-up of cream index-card stock #fbf5ea, showing fibre and tooth. Seamless repeatable surface, even lighting from edge to edge, no directional shading, no edges, no text, no objects, no logos. Square 2048x2048 PNG, highest available quality. Matte visible fine material texture.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "tex-cardstock-w1024.webp",
+          "w": 1024,
+          "h": 1024
+        }
+      ]
+    },
+    "tex-kraft": {
+      "source": "D02_tex_kraft.png",
+      "prompt": "A flat, evenly lit close-up of dark kraft box board, matte, faint fibre. Seamless repeatable surface, even lighting from edge to edge, no directional shading, no edges, no text, no objects, no logos. Square 2048x2048 PNG, highest available quality. Matte visible fine material texture.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "tex-kraft-w1024.webp",
+          "w": 1024,
+          "h": 1024
+        }
+      ]
+    },
+    "tex-linen": {
+      "source": "D03_tex_linen_dark.png",
+      "prompt": "A flat, evenly lit close-up of dark charcoal-brown linen weave, no creases. Seamless repeatable surface, even lighting from edge to edge, no directional shading, no edges, no text, no objects, no logos. Square 2048x2048 PNG, highest available quality. Matte visible fine material texture.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "tex-linen-w1024.webp",
+          "w": 1024,
+          "h": 1024
+        }
+      ]
+    },
+    "tex-grain": {
+      "source": "D04_tex_grain.png",
+      "prompt": "A flat, evenly lit close-up of fine photographic film grain on a mid-grey #808080 field, uniform, no pattern, no vignette. Seamless repeatable surface, even lighting from edge to edge, no directional shading, no edges, no text, no objects, no logos. Square 2048x2048 PNG, highest available quality.",
+      "model": "gpt-image (2.0 per file provenance)",
+      "outputs": [
+        {
+          "file": "tex-grain-w1024.webp",
+          "w": 1024,
+          "h": 1024
+        }
+      ]
+    },
+    "hero-archive-wide": {
+      "source": "Higgsfield Soul Location, generated 2026-09-11",
+      "prompt": "Looking down into an old wooden card-index box at night, overflowing with hundreds of blank cream index cards standing and slumped at odd angles, the cards completely bare with no writing or marks on them. Coloured divider tabs only in warm orange, rust and deep brick-red show between the cards - no other tab colours anywhere. One warm tungsten lamp from upper-left rakes across the nearest cards in sharp focus; the cards further back fall into soft warm blur. Visible fine film grain, shallow depth of field, dust motes drifting through the light beam. Dark worn wood desk beneath, deep black-brown shadow filling the lower third of the frame. No text, no handwriting, no hands, no people, nothing glossy.",
+      "model": "higgsfield soul_location",
+      "outputs": [
+        {
+          "file": "hero-archive-wide-w1600.webp",
+          "w": 1600,
+          "h": 900
+        }
+      ]
+    },
+    "hero-archive-tall": {
+      "source": "Higgsfield Soul Location, generated 2026-09-11",
+      "prompt": "Portrait orientation. Close angle looking down into an old wooden card-index box at night, overflowing with blank cream index cards standing and slumped at odd angles, the cards completely bare with no writing or marks on them. A few slivers of warm orange and deep brick-red divider tabs show between the cards - no other tab colours anywhere. One warm tungsten lamp from upper-left rakes across the nearest cards in sharp focus; the cards further back and up the frame fall into soft warm blur and near-black shadow. The background above and around the cards is empty deep shadow, nothing else in frame. Visible fine film grain, shallow depth of field, dust motes drifting through the light beam. Dark worn wood desk edge visible at the very bottom of the frame. No text, no handwriting, no hands, no people, no other objects, nothing glossy.",
+      "model": "higgsfield soul_location",
+      "outputs": [
+        {
+          "file": "hero-archive-tall-w1080.webp",
+          "w": 1080,
+          "h": 1920
+        }
+      ]
+    }
+  }
+}
